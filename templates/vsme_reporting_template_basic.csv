@@ -1,0 +1,15 @@
+metric_code,metric_name,module,unit,value_2025,notes_source
+B1_1,Total Energy Consumption,Basic,MWh,450.5,Annual utility bills
+B1_2,Renewable Energy Share,Basic,%,35.0,Supplier green tariff
+B2_1,Scope 1 Direct GHG Emissions,Basic,tCO2e,84.2,Vehicle fuel card reports
+B2_2,Scope 2 Location-Based GHG,Basic,tCO2e,29.3,Grid consumption x country EF
+B2_3,Scope 2 Market-Based GHG,Basic,tCO2e,19.0,Adjusted for Guarantee of Origin
+B3_1,Municipal Water Withdrawal,Basic,m3,1250.0,Water meter readings
+B4_1,Hazardous Waste Generated,Basic,tonnes,2.4,Waste contractor manifests
+B4_2,Non-Hazardous Waste Generated,Basic,tonnes,38.1,Recycling reports
+S1_1,Total Headcount (FTE),Basic,Count,42,Payroll records
+S1_2,Gender Diversity (Female %),Basic,%,38.1,HR management system
+S1_3,Unadjusted Gender Pay Gap,Basic,%,4.2,Compensation audit
+S2_1,Workplace Lost-Time Incidents,Basic,Count,0,HSEQ safety registry
+G1_1,Anti-Corruption Policy Active,Basic,Boolean,TRUE,Code of Conduct v2.1
+G1_2,Whistleblower Protection Channel,Basic,Boolean,TRUE,Digital whistleblowing portal

@@ -1,0 +1,133 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "EFRAG VS (VSME) Standard - Basic Module Data Schema",
+  "description": "Standardized schema for European SMEs voluntary sustainability reporting under the EFRAG VS (VSME) framework. Maintained by ExecutESG Editorial Team (https://executesg.com).",
+  "type": "object",
+  "required": [
+    "company_name",
+    "reporting_year",
+    "environmental",
+    "social",
+    "governance"
+  ],
+  "properties": {
+    "company_name": {
+      "type": "string"
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "sector_nace": {
+      "type": "string"
+    },
+    "reporting_year": {
+      "type": "integer",
+      "minimum": 2020,
+      "maximum": 2030
+    },
+    "headcount_fte": {
+      "type": "number",
+      "minimum": 0
+    },
+    "environmental": {
+      "type": "object",
+      "required": [
+        "energy_consumption_mwh",
+        "scope_1_tco2e",
+        "scope_2_location_tco2e"
+      ],
+      "properties": {
+        "energy_consumption_mwh": {
+          "type": "number",
+          "minimum": 0
+        },
+        "renewable_energy_share_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "scope_1_tco2e": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Direct emissions from fuel combustion, fleet, and onsite processes"
+        },
+        "scope_2_location_tco2e": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Indirect emissions from purchased electricity/heating (grid average)"
+        },
+        "scope_2_market_tco2e": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Indirect emissions from supplier-specific contracts / GoOs"
+        },
+        "water_withdrawal_m3": {
+          "type": "number",
+          "minimum": 0
+        },
+        "hazardous_waste_tonnes": {
+          "type": "number",
+          "minimum": 0
+        },
+        "non_hazardous_waste_tonnes": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "social": {
+      "type": "object",
+      "required": [
+        "total_employees",
+        "gender_pay_gap_pct",
+        "workplace_accidents_count"
+      ],
+      "properties": {
+        "total_employees": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "female_employees_pct": {
+          "type": "number",
+          "minimum": 0,
+          "maximum": 100
+        },
+        "gender_pay_gap_pct": {
+          "type": "number"
+        },
+        "workplace_accidents_count": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "training_hours_per_employee": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "governance": {
+      "type": "object",
+      "required": [
+        "anti_corruption_policy",
+        "whistleblower_mechanism"
+      ],
+      "properties": {
+        "anti_corruption_policy": {
+          "type": "boolean"
+        },
+        "whistleblower_mechanism": {
+          "type": "boolean"
+        },
+        "regulatory_fines_eur": {
+          "type": "number",
+          "minimum": 0
+        },
+        "data_privacy_breaches_count": {
+          "type": "integer",
+          "minimum": 0
+        }
+      }
+    }
+  }
+}

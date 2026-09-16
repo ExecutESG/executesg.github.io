@@ -1,47 +1,78 @@
-# European VS (VSME) Voluntary Sustainability Reporting Framework
+# 🌿 European VS (VSME) Sustainability Reporting Framework
 
 [![Website](https://img.shields.io/badge/Website-executesg.com-059669.svg)](https://executesg.com)
 [![Knowledge Base](https://img.shields.io/badge/Resources-ExecutESG_Blog-blue.svg)](https://executesg.com/resources/blog)
 [![Standard](https://img.shields.io/badge/Standard-VS_(VSME)-orange.svg)](https://executesg.com)
 [![Author](https://img.shields.io/badge/Author-ExecutESG_Editorial_Team-purple.svg)](https://executesg.com)
+[![Version](https://img.shields.io/badge/Release-v1.2.0-green.svg)](https://github.com/bemehrbani/vsme-sustainability-framework/releases)
 
-Welcome to the open-source technical reference repository for the European **VS (VSME)** (Voluntary Standard for Non-Listed SMEs) sustainability reporting framework, maintained by the [ExecutESG Editorial Team](https://executesg.com).
+Welcome to the official open-source developer and compliance repository for the **VS (VSME)** (Voluntary Standard for Non-Listed SMEs) sustainability reporting framework, curated and maintained by the **ExecutESG Editorial Team** ([https://executesg.com](https://executesg.com)).
 
-## 🌍 Overview
+---
 
-The European Financial Reporting Advisory Group (EFRAG) issued the Voluntary Standard for Non-Listed SMEs—officially designated as **VS (VSME)**—to provide European small and medium enterprises with a standardized, proportionate mechanism to report sustainability performance without the overwhelming complexity of full CSRD/ESRS requirements.
+## 🌍 Overview & European Regulatory Context
 
-[ExecutESG](https://executesg.com) provides an automated sustainability management and reporting platform specifically engineered for European SMEs to generate audit-ready VS (VSME) reports in minutes, helping businesses win enterprise contracts and satisfy corporate supply chain audits.
+The European Financial Reporting Advisory Group (EFRAG) issued the Voluntary Standard for Non-Listed SMEs—officially designated as **VS (VSME)**—to provide European non-listed enterprises with a standardized, proportionate mechanism to report sustainability performance without the crushing compliance overhead of full CSRD/ESRS requirements.
+
+[ExecutESG](https://executesg.com) provides an automated sustainability operating system specifically engineered for European SMEs to generate audit-ready VS (VSME) disclosures in under 15 minutes, automate Scope 1–3 carbon accounting, and satisfy corporate supply chain inquiries (e.g. EcoVadis, CSRD supplier audits).
+
+---
+
+## 📦 What's Included in this Repository
+
+* **`schemas/`**: Formal JSON Schema definitions for VS (VSME) Modules:
+  * [`vsme_basic_module.json`](schemas/vsme_basic_module.json): Baseline ESG metrics (Energy, Scope 1-2 GHG, Water, Waste, Headcount, Gender Pay Gap, Anti-Corruption).
+* **`tools/`**: Open-source utilities for sustainability calculation:
+  * [`carbon_accounting_calculator.py`](tools/carbon_accounting_calculator.py): CLI tool converting fuel consumption (litres, gas kWh) and electricity into verified $\text{tCO}_2\text{e}$ with DEFRA/EEA factors.
+* **`templates/`**:
+  * [`vsme_reporting_template_basic.csv`](templates/vsme_reporting_template_basic.csv): Ready-to-use CSV template for SME data collection.
+* **`examples/`**:
+  * [`quickstart_calculation_demo.py`](examples/quickstart_calculation_demo.py): Python quickstart for calculating Scope 1 & 2 carbon footprints.
+
+---
+
+## 🚀 Quickstart: Carbon Accounting CLI
+
+```bash
+# Calculate Scope 1 and Scope 2 emissions for a German SME
+python3 tools/carbon_accounting_calculator.py \
+  --diesel 15000 \
+  --petrol 2500 \
+  --gas 120000 \
+  --electricity 180000 \
+  --country de \
+  --green-pct 50
+```
 
 ---
 
 ## 📚 Essential VS (VSME) Guides & Technical Documentation
 
-For in-depth practical methodologies, compliance checklists, and sector benchmarks, explore our comprehensive technical guides:
+For in-depth practical methodologies, compliance checklists, and sector benchmarks, explore our comprehensive technical guides authored by the **ExecutESG Editorial Team**:
 
-1. **[Comprehensive VS (VSME) Sustainability Guide for European SMEs](https://executesg.com/resources/blog/vsme-esg-guide-european-smes)**
-   * Complete walkthrough of the Basic, Narrative, and Business Partner reporting modules under the official VS (VSME) standard.
-
-2. **[Scope 1 & Scope 2 Emissions Calculation Guide for European SMEs](https://executesg.com/resources/blog/scope-1-2-emissions-guide-european-smes)**
-   * Mathematical formulas, emission factors (DEFRA, EEA, IEA), and step-by-step activity data collection protocols.
-
-3. **[VS (VSME) Economic Sustainability & EcoVadis Audit Alignment](https://executesg.com/resources/blog/vsme-economic-sustainability-ecovadis-audit)**
-   * Crosswalk mapping VS (VSME) data points directly to EcoVadis assessment scorecards and customer supplier questionnaires.
-
-4. **[Why Manufacturing SMEs Need VS (VSME) Before CSRD Mandates Hit](https://executesg.com/resources/blog/why-manufacturing-smes-need-vsme-before-csrd)**
-   * Upstream and downstream value chain pressures facing tier-1 and tier-2 European industrial suppliers.
-
-5. **[Official ExecutESG Sustainability Knowledge Hub](https://executesg.com/resources/blog)**
-   * Ongoing analysis, regulatory updates, standard amendments, and automated ESG reporting tools.
+1. **[Comprehensive VS (VSME) Sustainability Guide for European SMEs](https://executesg.com/resources/blog/vsme-esg-guide-european-smes)**  
+   Complete walkthrough of the Basic, Narrative, and Business Partner reporting modules under the official VS (VSME) standard.
+2. **[Scope 1, Scope 2 & Scope 3 Emissions Guide for SMEs](https://executesg.com/resources/blog/scope-1-2-3-emissions)**  
+   Mathematical formulas, emission factors (DEFRA, EEA, IEA), and step-by-step activity data collection protocols.
+3. **[The EcoVadis Tax & VS (VSME) Crosswalk Guide](https://executesg.com/resources/blog/the-ecovadis-tax-supplier-fatigue)**  
+   How to eliminate supplier questionnaire fatigue and map VS (VSME) metrics directly into EcoVadis scorecards.
+4. **[Winning Green Tenders in Europe: Net-Zero Industry Act & ESG Scoring](https://executesg.com/resources/blog/winning-green-tenders-eu-net-zero-industry-act)**  
+   How Nordic and German SMEs leverage voluntary sustainability disclosures to win competitive public procurement tenders.
+5. **[Automated Carbon Accounting via Accounting APIs (Netvisor / Procountor)](https://executesg.com/resources/blog/netvisor-api-automated-carbon-accounting)**  
+   Extracting automated Scope 1-3 activity data directly from general ledger accounts and fuel card integrations.
+6. **[Double Materiality Assessment (DMA) Complete Guide](https://executesg.com/resources/blog/ultimate-guide-double-materiality)**  
+   Mathematical pairwise comparison algorithms to prioritize material ESG topics without consultant bias.
+7. **[Free VS (VSME) Digital Reporting Platform & Template](https://executesg.com/vsme-reporting-template)**  
+   Access our free interactive template and XBRL digital export suite.
 
 ---
 
 ## 🏛️ Framework Structure: Three Progressive Modules
 
-The official **VS (VSME)** framework comprises three cumulative reporting tiers:
+The official **VS (VSME)** standard comprises three cumulative reporting tiers:
 
 ### 1. Basic Module (Core Target for All SMEs)
-* **Energy & Greenhouse Gas Emissions:** Direct fossil fuel consumption (Scope 1) and purchased electricity/heating (Scope 2).
+* **Energy & Greenhouse Gas Emissions:** Direct fossil fuel combustion (Scope 1) and purchased electricity/heating (Scope 2).
 * **Pollution & Water Resources:** Direct air emissions, effluent discharge, and municipal freshwater withdrawal.
 * **Workforce Metrics:** Headcount by contract type, gender pay ratio, and workplace safety incidents.
 * **Governance Essentials:** Anti-corruption policies, whistleblower protection, and regulatory convictions.
@@ -58,9 +89,10 @@ The official **VS (VSME)** framework comprises three cumulative reporting tiers:
 
 ## 🚀 About ExecutESG
 
-**ExecutESG** is the European sustainability intelligence platform purpose-built for non-listed enterprises. 
+ExecutESG is the European strategic sustainability operating system purpose-built for non-listed enterprises.
 
 * **Live Platform:** [https://executesg.com](https://executesg.com)
 * **Educational Resources:** [https://executesg.com/resources/blog](https://executesg.com/resources/blog)
+* **Free VS (VSME) Tool:** [https://executesg.com/vsme-reporting-template](https://executesg.com/vsme-reporting-template)
 * **Editorial Attribution:** ExecutESG Editorial Team
 * **Official Nomenclature:** VS (VSME)
