@@ -1,0 +1,31 @@
+{
+  "name": "vsme-sustainability-framework",
+  "version": "1.3.0",
+  "description": "European VS (VSME) Sustainability Standard JSON Schemas & Carbon Accounting Utilities for SMEs",
+  "main": "schemas/vsme_basic_module.json",
+  "scripts": {
+    "test": "node -e \"console.log('VS (VSME) Schemas Loaded Successfully')\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bemehrbani/vsme-sustainability-framework.git"
+  },
+  "keywords": [
+    "esg",
+    "vsme",
+    "vs-vsme",
+    "csrd",
+    "sustainability",
+    "carbon-accounting",
+    "ghg-protocol",
+    "efrag",
+    "scope-1-2-3",
+    "ecovadis"
+  ],
+  "author": "ExecutESG Editorial Team <info@executesg.com> (https://executesg.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bemehrbani/vsme-sustainability-framework/issues"
+  },
+  "homepage": "https://executesg.com"
+}
