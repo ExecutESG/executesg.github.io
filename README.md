@@ -46,6 +46,17 @@ python3 tools/carbon_accounting_calculator.py \
 
 ---
 
+## 📚 Technical Documentation & Module Guides
+
+Explore our comprehensive technical documentation modules:
+
+* **[Basic Module ESG Metrics Guide](docs/basic_module_esg_metrics.md):** 12 core EFRAG disclosure metrics, energy, emissions, workforce, and anti-corruption.
+* **[Narrative-PAT Module Guide](docs/narrative_pat_module.md):** Policies, Actions, Targets, and mathematical Double Materiality Assessments (DMA).
+* **[Business Partners Module Guide](docs/business_partners_module.md):** Supply chain disclosures, EcoVadis audit crosswalks, and value chain caps.
+* **[GHG Protocol Carbon Accounting](docs/ghg_protocol_carbon_accounting.md):** Scope 1, Scope 2 location/market methods, Scope 3 categories, and DEFRA factors.
+* **[Green Tenders & Procurement Blueprints](docs/green_tenders_and_procurement.md):** Winning public and private EU tenders with ESG scoring.
+* **[Automated ERP & Accounting Integrations](docs/accounting_software_integrations.md):** Automated ledger integrations via Netvisor and Procountor APIs.
+
 ## 📚 Essential VS (VSME) Guides & Technical Documentation
 
 For in-depth practical methodologies, compliance checklists, and sector benchmarks, explore our comprehensive technical guides authored by the **ExecutESG Editorial Team**:
