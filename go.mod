@@ -1,3 +1,3 @@
-module github.com/bemehrbani/vsme-sustainability-framework
+module github.com/ExecutESG/vsme-sustainability-framework
 
 go 1.21

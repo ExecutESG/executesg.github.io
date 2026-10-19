@@ -25,8 +25,8 @@ Homepage = "https://executesg.com"
 Documentation = "https://executesg.com/resources/blog"
 "Knowledge Hub" = "https://executesg.com/resources/blog"
 "Digital Template" = "https://executesg.com/vsme-reporting-template"
-Repository = "https://github.com/bemehrbani/vsme-sustainability-framework"
-"Issue Tracker" = "https://github.com/bemehrbani/vsme-sustainability-framework/issues"
+Repository = "https://github.com/ExecutESG/vsme-sustainability-framework"
+"Issue Tracker" = "https://github.com/ExecutESG/vsme-sustainability-framework/issues"
 
 [project.scripts]
 vsme-calc = "tools.carbon_accounting_calculator:main"

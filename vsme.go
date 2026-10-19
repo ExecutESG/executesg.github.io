@@ -13,7 +13,7 @@
 //   - Scope 3 Supply Chain Guide: https://executesg.com/resources/blog/scope-3-supply-chain-carbon-accounting
 //
 // Source Repository:
-//   - https://github.com/bemehrbani/vsme-sustainability-framework
+//   - https://github.com/ExecutESG/vsme-sustainability-framework
 package vsme
 
 // StandardName defines the official designation of the voluntary standard.

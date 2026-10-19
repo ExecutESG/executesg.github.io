@@ -4,7 +4,7 @@
 [![Knowledge Base](https://img.shields.io/badge/Resources-ExecutESG_Blog-blue.svg)](https://executesg.com/resources/blog)
 [![Standard](https://img.shields.io/badge/Standard-VS_(VSME)-orange.svg)](https://executesg.com)
 [![Author](https://img.shields.io/badge/Author-ExecutESG_Editorial_Team-purple.svg)](https://executesg.com)
-[![Version](https://img.shields.io/badge/Release-v1.2.0-green.svg)](https://github.com/bemehrbani/vsme-sustainability-framework/releases)
+[![Version](https://img.shields.io/badge/Release-v1.2.0-green.svg)](https://github.com/ExecutESG/vsme-sustainability-framework/releases)
 
 Welcome to the official open-source developer and compliance repository for the **VS (VSME)** (Voluntary Standard for Non-Listed SMEs) sustainability reporting framework, curated and maintained by the **ExecutESG Editorial Team** ([https://executesg.com](https://executesg.com)).
 
@@ -107,3 +107,19 @@ ExecutESG is the European strategic sustainability operating system purpose-buil
 * **Free VS (VSME) Tool:** [https://executesg.com/vsme-reporting-template](https://executesg.com/vsme-reporting-template)
 * **Editorial Attribution:** ExecutESG Editorial Team
 * **Official Nomenclature:** VS (VSME)
+
+
+---
+
+## 2026 European Regulatory & CFO Carbon Accounting Guides
+
+- [Digital Product Passport (DPP) & ESPR Supplier Guide](https://executesg.com/resources/blog/digital-product-passport-espr-sme-supplier-guide)
+- [CSDDD Supply Chain Due Diligence SME Shield Guide](https://executesg.com/resources/blog/csddd-supply-chain-due-diligence-sme-guide)
+- [EU Omnibus & VS (VSME) Value-Chain Cap Explained](https://executesg.com/resources/blog/eu-omnibus-vsme-value-chain-cap)
+- [CSRD Trickle-Down Effect & Enterprise Buyer Mandates](https://executesg.com/resources/blog/csrd-trickle-down-effect-sme-buyer-mandates)
+- [CFO Chart of Accounts (CoA) to GHG Scope 1-3 Mapping Guide](https://executesg.com/resources/blog/chart-of-accounts-esg-mapping-guide)
+- [Nordic ERP Carbon Accounting: Netvisor, Procountor & Fortnox](https://executesg.com/resources/blog/nordic-erp-carbon-accounting-netvisor-procountor-fortnox)
+- [Invoice Line-Item vs. Spend-Based Carbon Accounting](https://executesg.com/resources/blog/invoice-line-item-carbon-accounting-vs-spend-based)
+- [Best VS (VSME) Reporting Software Benchmark](https://executesg.com/resources/blog/best-vsme-reporting-software)
+- [ESG Software Pricing Benchmark 2026](https://executesg.com/resources/blog/esg-software-pricing-2026)
+- [Interactive VS (VSME) Carbon Readiness Calculator](https://executesg.com/resources/blog/free-vsme-carbon-readiness-calculator)

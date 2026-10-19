@@ -1,5 +1,5 @@
 {
-  "name": "bemehrbani/vsme-sustainability-framework",
+  "name": "executesg/vsme-sustainability-framework",
   "description": "European VS (VSME) voluntary sustainability reporting technical framework, schemas, and ESG audit toolkits for European SMEs by ExecutESG.",
   "type": "library",
   "license": "MIT",
@@ -12,7 +12,7 @@
   "homepage": "https://executesg.com",
   "support": {
     "docs": "https://executesg.com/resources/blog",
-    "source": "https://github.com/bemehrbani/vsme-sustainability-framework"
+    "source": "https://github.com/ExecutESG/vsme-sustainability-framework"
   },
   "keywords": [
     "vsme",
